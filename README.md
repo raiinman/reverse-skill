@@ -1,7 +1,36 @@
+<!-- project-centered:start -->
+<div align="center">
+
+<a name="readme-top"></a>
+<h1 align="center">reverse-skill</h1>
+
+<!-- project-header:start -->
+<p align="center"><img src="readme-banner.png" alt="reverse-skill — original decorative project artwork" width="100%"></p>
+<!-- project-header:end -->
+
+<!-- project-badges:start -->
+<p align="center"><a href="https://github.com/raiinman/reverse-skill"><img src="https://img.shields.io/badge/router-authorized_analysis-3F9C8E?logo=github&amp;logoColor=white" alt="router: authorized analysis"></a> <a href="https://github.com/raiinman/reverse-skill"><img src="https://img.shields.io/badge/access-public-3F9C8E?logo=github&amp;logoColor=white" alt="access: public"></a> <a href="#readme-index"><img src="https://img.shields.io/badge/docs-explore_the_index-3F9C8E?logo=readthedocs&amp;logoColor=white" alt="docs: explore the index"></a></p>
+<!-- project-badges:end -->
+
+<!-- project-live-badges:start -->
+<p align="center"><a href="https://github.com/raiinman/reverse-skill/commits/main"><img src="https://img.shields.io/github/last-commit/raiinman/reverse-skill?color=3F9C8E&amp;logo=git&amp;logoColor=white" alt="GitHub last commit"></a> <a href="https://github.com/raiinman/reverse-skill/issues"><img src="https://img.shields.io/github/issues/raiinman/reverse-skill?color=3F9C8E&amp;logo=github&amp;logoColor=white" alt="GitHub open issues"></a> <a href="https://github.com/raiinman/reverse-skill/stargazers"><img src="https://img.shields.io/github/stars/raiinman/reverse-skill?style=flat&amp;color=3F9C8E&amp;logo=github&amp;logoColor=white" alt="GitHub stars"></a></p>
+<!-- project-live-badges:end -->
+
+<!-- project-index:start -->
+<a name="readme-index"></a>
+<h3 align="center">✦ Explore this project</h3>
+<table align="center"><tbody><tr><td align="center"><a href="#readme-overview"><strong>Overview</strong></a></td><td align="center"><a href="#readme-section-1"><strong>About</strong></a></td></tr><tr><td align="center"><a href="#readme-section-3"><strong>Sponsors</strong></a></td><td align="center"><a href="#readme-section-5"><strong>Getting Started</strong></a></td></tr><tr><td align="center"><a href="#readme-section-8"><strong>Usage</strong></a></td><td align="center"><a href="#readme-section-14"><strong>Contributing</strong></a></td></tr><tr><td align="center"><a href="#readme-section-16"><strong>License</strong></a></td><td align="center"><a href="#readme-section-17"><strong>Acknowledgments</strong></a></td></tr><tr><td align="center"><a href="#readme-section-18"><strong>Contact</strong></a></td><td align="center"><a href="#readme-section-19"><strong>Disclaimer</strong></a></td></tr><tr><td align="center"><a href="#readme-section-20"><strong>Installation and download security</strong></a></td><td align="center"><a href="#readme-section-21"><strong>Community quick start and issue triage</strong></a></td></tr></tbody></table>
+<h4 align="center">Project shortcuts</h4>
+<table align="center"><tbody><tr><td align="center"><a href="README_AI.md"><strong>README AI</strong></a></td><td align="center"><a href="RULES.md"><strong>RULES</strong></a></td></tr><tr><td align="center"><a href="SECURITY.md"><strong>SECURITY</strong></a></td><td align="center"><a href="LICENSE"><strong>License</strong></a></td></tr></tbody></table>
+<!-- project-index:end -->
+
+<a name="readme-overview"></a>
+<h2 align="center">Overview</h2>
+
 <p align="center">
   <img src="reverse-skill.png" alt="reverse-skill" width="140" />
 </p>
-<h1 align="center">reverse-skill</h1>
+
 <h3 align="center">Cybersecurity Skills Router · 逆向技能路由包</h3>
 
 <p align="center"><em style="font-family: Georgia, serif; font-size: 1.2em; color: #777;">Navigate the dark waters, sail against the stream.</em></p>
@@ -45,32 +74,54 @@
 
 <a id="about"></a>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-1"></a>
+
 ## About
 
-> **If you are an AI Agent, jump to [README_AI.md](README_AI.md) and follow the instructions strictly.**
+<blockquote align="center">
+<p align="center"><strong>If you are an AI Agent, jump to <a href="README_AI.md">README_AI.md</a> and follow the instructions strictly.</strong></p>
+</blockquote>
+
+
 
 When an AI agent (Claude Code, Codex, Cursor, OpenCode, or another compatible client) encounters an APK, a binary, frontend JS encryption, a CTF challenge, or a pentesting target, this package routes it to the right methodology, checks available tools, and executes a repeatable workflow instead of guessing commands.
 
-```
-User task
-  → RULES.md
-  → MASTER-ROUTING / master-route.ps1 (PRIMARY)
-  → case-init / scope.md (auth + network_profile; no target ACT until ready)
-  → Scenario skill → tools / MCP / scripts
-  → timeline + Evidence→Finding→Path → report + field-journal
-```
+<table align="center"><tbody><tr><td align="left"><pre><code>User task&#10;  → RULES.md&#10;  → MASTER-ROUTING / master-route.ps1 (PRIMARY)&#10;  → case-init / scope.md (auth + network_profile; no target ACT until ready)&#10;  → Scenario skill → tools / MCP / scripts&#10;  → timeline + Evidence→Finding→Path → report + field-journal&#10;</code></pre></td></tr></tbody></table>
+
+
 
 **Why this exists:**
-- AI agents don't know whether to use jadx, apktool, Frida, IDA, or BurpSuite for a given task
-- APK, ELF, JS, PCAP, and CTF tasks each need different playbooks
-- Tools, MCP servers, and scripts are scattered across machines
-- The same mistakes get repeated because experience isn't reused
+<table align="center"><tbody><tr><td align="center">AI agents don't know whether to use jadx, apktool, Frida, IDA, or BurpSuite for a given task</td></tr><tr><td align="center">APK, ELF, JS, PCAP, and CTF tasks each need different playbooks</td></tr><tr><td align="center">Tools, MCP servers, and scripts are scattered across machines</td></tr><tr><td align="center">The same mistakes get repeated because experience isn't reused</td></tr></tbody></table>
+
+
+<a name="readme-section-2"></a>
 
 ### Current status
 
-| Routing rules | Regression benchmark | Core skill modules | CI platforms | Client model |
-|---:|---:|---:|---|---|
-| 44 (R0–R45) | 175 cases | 45 tracked modules | Windows + Ubuntu | Client-neutral |
+<table align="center">
+<thead>
+<tr>
+<th align="center" style="text-align:right">Routing rules</th>
+<th align="center" style="text-align:right">Regression benchmark</th>
+<th align="center" style="text-align:right">Core skill modules</th>
+<th align="center">CI platforms</th>
+<th align="center">Client model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" style="text-align:right">44 (R0–R45)</td>
+<td align="center" style="text-align:right">175 cases</td>
+<td align="center" style="text-align:right">45 tracked modules</td>
+<td align="center">Windows + Ubuntu</td>
+<td align="center">Client-neutral</td>
+</tr>
+</tbody>
+</table>
+
+
 
 The routing core is driven by one structured configuration, validated by cross-platform CI, and kept separate from optional client adapters.
 
@@ -89,6 +140,10 @@ PRIMARY ladder: [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) · Full mat
 <p align="right">(<a href="#about">back to top</a>)</p>
 
 <a id="sponsors"></a>
+
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-3"></a>
 
 ## Sponsors
 
@@ -131,6 +186,8 @@ PRIMARY ladder: [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) · Full mat
   </tr>
 </table>
 
+<a name="readme-section-4"></a>
+
 ### Built With
 
 <p align="left">
@@ -142,104 +199,267 @@ PRIMARY ladder: [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) · Full mat
 
 <a id="getting-started"></a>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-5"></a>
+
 ## Getting Started
+
+<a name="readme-section-6"></a>
 
 ### Prerequisites
 
-- **Java / JDK** — for jadx and apktool
-- **Node.js 22.12+** — for JS toolchain and MCP servers
-- **Python 3.x** — for Frida and helper scripts
-- **A code AI client** — Claude Code, Codex, Cursor, OpenCode, or another compatible client
+<table align="center"><tbody><tr><td align="center"><strong>Java / JDK</strong> — for jadx and apktool</td></tr><tr><td align="center"><strong>Node.js 22.12+</strong> — for JS toolchain and MCP servers</td></tr><tr><td align="center"><strong>Python 3.x</strong> — for Frida and helper scripts</td></tr><tr><td align="center"><strong>A code AI client</strong> — Claude Code, Codex, Cursor, OpenCode, or another compatible client</td></tr></tbody></table>
+
+
+<a name="readme-section-7"></a>
 
 ### Installation
 
-```
-git clone https://github.com/zhaoxuya520/reverse-skill.git
-```
+<table align="center"><tbody><tr><td align="left"><pre><code>git clone https://github.com/zhaoxuya520/reverse-skill.git&#10;</code></pre></td></tr></tbody></table>
+
+
 
 Then refresh the tool index per platform:
 
-| Platform | Command |
-|----------|---------|
-| Windows | `powershell -File skills/scripts/refresh-tool-index.ps1` |
-| Linux / macOS | `bash skills/scripts/refresh-tool-index.sh` |
-| Kali Linux | `bash kali/scripts/refresh-tool-index.sh` |
+<table align="center">
+<thead>
+<tr>
+<th align="center">Platform</th>
+<th align="center">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Windows</td>
+<td align="center"><code>powershell -File skills/scripts/refresh-tool-index.ps1</code></td>
+</tr>
+<tr>
+<td align="center">Linux / macOS</td>
+<td align="center"><code>bash skills/scripts/refresh-tool-index.sh</code></td>
+</tr>
+<tr>
+<td align="center">Kali Linux</td>
+<td align="center"><code>bash kali/scripts/refresh-tool-index.sh</code></td>
+</tr>
+</tbody>
+</table>
+
+
 
 Check [skills/tool-index.md](skills/tool-index.md) to see detected tools.
 
 Platform-specific docs:
-- **Kali Linux** → [kali/README-kali.md](kali/README-kali.md)
-- **Ubuntu/Debian** → [docs/platforms/linux.md](docs/platforms/linux.md)
-- **macOS** → [docs/platforms/macos.md](docs/platforms/macos.md)
+<table align="center"><tbody><tr><td align="center"><strong>Kali Linux</strong> → <a href="kali/README-kali.md">kali/README-kali.md</a></td></tr><tr><td align="center"><strong>Ubuntu/Debian</strong> → <a href="docs/platforms/linux.md">docs/platforms/linux.md</a></td></tr><tr><td align="center"><strong>macOS</strong> → <a href="docs/platforms/macos.md">docs/platforms/macos.md</a></td></tr></tbody></table>
+
 
 <p align="right">(<a href="#getting-started">back to top</a>)</p>
 
 <a id="usage"></a>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-8"></a>
+
 ## Usage
+
+<a name="readme-section-9"></a>
 
 ### Supported scenarios
 
-| Scenario | Entry |
-|----------|-------|
-| APK / Android analysis | `skills/apk-reverse/` |
-| iOS / mobile | `skills/mobile-reverse/` |
-| Binary reverse (exe/dll/so/elf) | `skills/ida-reverse/` / `skills/radare2/` |
-| Binary Ninja / HLIL / MLIL / MCP | `skills/binary-ninja-reverse/` |
-| .NET / C# | `skills/dotnet-reverse/` |
-| Frontend JS / encrypted params | `skills/js-reverse/` |
-| DSL VM / custom JS opcode VM | `skills/reverse-engineering/dsl-vm-reverse/` |
-| HTTP capture / request replay | anything-analyzer, Reqable MCP + `js-reverse/` |
-| Malware / YARA | `skills/malware-analysis/` |
-| Penetration testing / scanning | `skills/pentest-tools/` |
-| Attack chain / red-team orchestration | `skills/attack-chain/` |
-| Case evidence review / report handoff | `skills/case-review/` |
-| CTF competition | `CTF-Sandbox-Orchestrator/` (42 sub-skills) |
-| Firmware / IoT | `skills/firmware-pentest/` |
-| Patch diff / N-day | `skills/patch-diff-exploit/` |
-| Pwn / exploit development | `skills/pwn-chain/` |
-| EDR bypass | `skills/edr-bypass-re/` |
-| API / GraphQL | `skills/api-security/` |
-| Supply chain / SBOM | `skills/supply-chain-security/` |
-| LLM / AI security | `skills/llm-security/` |
-| OLLVM deobfuscation | `skills/reverse-engineering/references/ollvm-deobfuscation.md` |
-| Diagrams / reports | `skills/diagram-generator/` / `skills/docs-generator/` |
+<table align="center">
+<thead>
+<tr>
+<th align="center">Scenario</th>
+<th align="center">Entry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">APK / Android analysis</td>
+<td align="center"><code>skills/apk-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">iOS / mobile</td>
+<td align="center"><code>skills/mobile-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">Binary reverse (exe/dll/so/elf)</td>
+<td align="center"><code>skills/ida-reverse/</code> / <code>skills/radare2/</code></td>
+</tr>
+<tr>
+<td align="center">Binary Ninja / HLIL / MLIL / MCP</td>
+<td align="center"><code>skills/binary-ninja-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">.NET / C#</td>
+<td align="center"><code>skills/dotnet-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">Frontend JS / encrypted params</td>
+<td align="center"><code>skills/js-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">DSL VM / custom JS opcode VM</td>
+<td align="center"><code>skills/reverse-engineering/dsl-vm-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">HTTP capture / request replay</td>
+<td align="center">anything-analyzer, Reqable MCP + <code>js-reverse/</code></td>
+</tr>
+<tr>
+<td align="center">Malware / YARA</td>
+<td align="center"><code>skills/malware-analysis/</code></td>
+</tr>
+<tr>
+<td align="center">Penetration testing / scanning</td>
+<td align="center"><code>skills/pentest-tools/</code></td>
+</tr>
+<tr>
+<td align="center">Attack chain / red-team orchestration</td>
+<td align="center"><code>skills/attack-chain/</code></td>
+</tr>
+<tr>
+<td align="center">Case evidence review / report handoff</td>
+<td align="center"><code>skills/case-review/</code></td>
+</tr>
+<tr>
+<td align="center">CTF competition</td>
+<td align="center"><code>CTF-Sandbox-Orchestrator/</code> (42 sub-skills)</td>
+</tr>
+<tr>
+<td align="center">Firmware / IoT</td>
+<td align="center"><code>skills/firmware-pentest/</code></td>
+</tr>
+<tr>
+<td align="center">Patch diff / N-day</td>
+<td align="center"><code>skills/patch-diff-exploit/</code></td>
+</tr>
+<tr>
+<td align="center">Pwn / exploit development</td>
+<td align="center"><code>skills/pwn-chain/</code></td>
+</tr>
+<tr>
+<td align="center">EDR bypass</td>
+<td align="center"><code>skills/edr-bypass-re/</code></td>
+</tr>
+<tr>
+<td align="center">API / GraphQL</td>
+<td align="center"><code>skills/api-security/</code></td>
+</tr>
+<tr>
+<td align="center">Supply chain / SBOM</td>
+<td align="center"><code>skills/supply-chain-security/</code></td>
+</tr>
+<tr>
+<td align="center">LLM / AI security</td>
+<td align="center"><code>skills/llm-security/</code></td>
+</tr>
+<tr>
+<td align="center">OLLVM deobfuscation</td>
+<td align="center"><code>skills/reverse-engineering/references/ollvm-deobfuscation.md</code></td>
+</tr>
+<tr>
+<td align="center">Diagrams / reports</td>
+<td align="center"><code>skills/diagram-generator/</code> / <code>skills/docs-generator/</code></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="readme-section-10"></a>
 
 ### Key files
 
-| File | Purpose |
-|------|---------|
-| [README_AI.md](README_AI.md) | AI agent bootstrap and configuration |
-| [RULES.md](RULES.md) | Global routing rules (scope gate before ACT) |
-| [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) | PRIMARY fast ladder |
-| [skills/routing.md](skills/routing.md) | Task → skill routing matrix |
-| [skills/SKILL.md](skills/SKILL.md) | Master entry point |
-| [skills/INDEX.md](skills/INDEX.md) | Auto-generated, client-neutral skill navigation index |
-| [skills/config/routing.json](skills/config/routing.json) | **Routing single source of truth** (43 rules, R0–R44) |
-| [skills/tool-index.md](skills/tool-index.md) | Local tool status (auto-generated) |
-| [skills/scripts/master-route.ps1](skills/scripts/master-route.ps1) | One-shot PRIMARY triage (reads routing.json) |
-| [skills/scripts/case-init.ps1](skills/scripts/case-init.ps1) | Case dir: scope / timeline / workitems |
-| [skills/case-review/](skills/case-review/) | Read-only Evidence graph review and artifact fixity checks |
-| [skills/scripts/test-routing.ps1](skills/scripts/test-routing.ps1) | Routing regression runner (173 benchmark cases) |
-| [skills/scripts/verify-routing-coherence.ps1](skills/scripts/verify-routing-coherence.ps1) | Structure + supply-chain pin gate checks |
-| [skills/scripts/extract-summaries.ps1](skills/scripts/extract-summaries.ps1) | Regenerates INDEX.md from skill frontmatter |
-| [AGENTS.md](AGENTS.md) | Platform-neutral repository instructions |
-| [skills/ops/](skills/ops/) | Scope, Evidence chain, roles, timeline (skill-router form) |
+<table align="center">
+<thead>
+<tr>
+<th align="center">File</th>
+<th align="center">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="README_AI.md">README_AI.md</a></td>
+<td align="center">AI agent bootstrap and configuration</td>
+</tr>
+<tr>
+<td align="center"><a href="RULES.md">RULES.md</a></td>
+<td align="center">Global routing rules (scope gate before ACT)</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/MASTER-ROUTING.md">skills/MASTER-ROUTING.md</a></td>
+<td align="center">PRIMARY fast ladder</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/routing.md">skills/routing.md</a></td>
+<td align="center">Task → skill routing matrix</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/SKILL.md">skills/SKILL.md</a></td>
+<td align="center">Master entry point</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/INDEX.md">skills/INDEX.md</a></td>
+<td align="center">Auto-generated, client-neutral skill navigation index</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/config/routing.json">skills/config/routing.json</a></td>
+<td align="center"><strong>Routing single source of truth</strong> (43 rules, R0–R44)</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/tool-index.md">skills/tool-index.md</a></td>
+<td align="center">Local tool status (auto-generated)</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/scripts/master-route.ps1">skills/scripts/master-route.ps1</a></td>
+<td align="center">One-shot PRIMARY triage (reads routing.json)</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/scripts/case-init.ps1">skills/scripts/case-init.ps1</a></td>
+<td align="center">Case dir: scope / timeline / workitems</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/case-review/">skills/case-review/</a></td>
+<td align="center">Read-only Evidence graph review and artifact fixity checks</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/scripts/test-routing.ps1">skills/scripts/test-routing.ps1</a></td>
+<td align="center">Routing regression runner (173 benchmark cases)</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/scripts/verify-routing-coherence.ps1">skills/scripts/verify-routing-coherence.ps1</a></td>
+<td align="center">Structure + supply-chain pin gate checks</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/scripts/extract-summaries.ps1">skills/scripts/extract-summaries.ps1</a></td>
+<td align="center">Regenerates INDEX.md from skill frontmatter</td>
+</tr>
+<tr>
+<td align="center"><a href="AGENTS.md">AGENTS.md</a></td>
+<td align="center">Platform-neutral repository instructions</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/ops/">skills/ops/</a></td>
+<td align="center">Scope, Evidence chain, roles, timeline (skill-router form)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="readme-section-11"></a>
 
 ### Testing (run after any routing/config change)
 
-```powershell
-# 1. Routing regression — 173 (hint → expected PRIMARY) cases, fails CI on any mismatch
-powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/test-routing.ps1
-# 2. Structure coherence + supply-chain pin gate (unpinned auto-install fails)
-powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/verify-routing-coherence.ps1
-# 3. Smoke: verify + script parse + quick route matrix
-powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/smoke.ps1
-# 4. INDEX.md drift check (regenerate with extract-summaries.ps1 if dirty)
-powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/extract-summaries.ps1 -Check
-```
+<table align="center"><tbody><tr><td align="left"><pre><code class="language-powershell"># 1. Routing regression — 173 (hint → expected PRIMARY) cases, fails CI on any mismatch&#10;powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/test-routing.ps1&#10;# 2. Structure coherence + supply-chain pin gate (unpinned auto-install fails)&#10;powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/verify-routing-coherence.ps1&#10;# 3. Smoke: verify + script parse + quick route matrix&#10;powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/smoke.ps1&#10;# 4. INDEX.md drift check (regenerate with extract-summaries.ps1 if dirty)&#10;powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/extract-summaries.ps1 -Check&#10;</code></pre></td></tr></tbody></table>
+
+
 
 GitHub Actions CI runs all of the above on **Windows + Ubuntu** for every push/PR.
+
+<a name="readme-section-12"></a>
 
 ### Client-neutral integration
 
@@ -247,41 +467,30 @@ The routing core, regression suite, manifests, and case workflow do not depend o
 
 For Codex, the repository also exposes an optional adapter plugin at [`plugins/reverse-skill/`](plugins/reverse-skill/). It delegates to the repository's existing routing core and does not register external MCP servers automatically.
 
+<a name="readme-section-13"></a>
+
 ### Repository layout
 
-```
-.
-├── README.md / README_zh.md / README_AI.md
-├── RULES.md / RULES_zh.md
-├── skills/
-│   ├── MASTER-ROUTING.md / SKILL.md / routing.md
-│   ├── ops/                   # ops contracts
-│   ├── scripts/               # master-route, case-init, bootstrap, verify
-│   ├── field-journal/
-│   ├── apk-reverse/ mobile-reverse/ js-reverse/ dotnet-reverse/
-│   ├── ida-reverse/ radare2/ reverse-engineering/ malware-analysis/
-│   ├── pentest-tools/ attack-chain/ pwn-chain/ firmware-pentest/
-│   ├── api-security/ supply-chain-security/ llm-security/
-│   └── ...
-├── CTF-Sandbox-Orchestrator/
-├── docs/
-├── kali/                      # see kali/README-kali.md
-└── work/                      # local cases (gitignored)
-```
+<table align="center"><tbody><tr><td align="left"><pre><code>.&#10;├── README.md / README_zh.md / README_AI.md&#10;├── RULES.md / RULES_zh.md&#10;├── skills/&#10;│   ├── MASTER-ROUTING.md / SKILL.md / routing.md&#10;│   ├── ops/                   # ops contracts&#10;│   ├── scripts/               # master-route, case-init, bootstrap, verify&#10;│   ├── field-journal/&#10;│   ├── apk-reverse/ mobile-reverse/ js-reverse/ dotnet-reverse/&#10;│   ├── ida-reverse/ radare2/ reverse-engineering/ malware-analysis/&#10;│   ├── pentest-tools/ attack-chain/ pwn-chain/ firmware-pentest/&#10;│   ├── api-security/ supply-chain-security/ llm-security/&#10;│   └── ...&#10;├── CTF-Sandbox-Orchestrator/&#10;├── docs/&#10;├── kali/                      # see kali/README-kali.md&#10;└── work/                      # local cases (gitignored)&#10;</code></pre></td></tr></tbody></table>
+
+
 
 <p align="right">(<a href="#usage">back to top</a>)</p>
 
 <a id="contributing"></a>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-14"></a>
+
 ## Contributing
 
 Contributions are welcome! Fork the repo, create a feature branch, and open a PR.
 
-1. Fork the Project
-2. `git checkout -b feature/AmazingFeature`
-3. `git commit -m 'Add some AmazingFeature'`
-4. `git push origin feature/AmazingFeature`
-5. Open a Pull Request
+<table align="center"><tbody><tr><td align="center">1</td><td align="center">Fork the Project</td></tr><tr><td align="center">2</td><td align="center"><code>git checkout -b feature/AmazingFeature</code></td></tr><tr><td align="center">3</td><td align="center"><code>git commit -m 'Add some AmazingFeature'</code></td></tr><tr><td align="center">4</td><td align="center"><code>git push origin feature/AmazingFeature</code></td></tr><tr><td align="center">5</td><td align="center">Open a Pull Request</td></tr></tbody></table>
+
+
+<a name="readme-section-15"></a>
 
 ### Contributors
 
@@ -293,18 +502,25 @@ Contributions are welcome! Fork the repo, create a feature branch, and open a PR
 
 <a id="license"></a>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-16"></a>
+
 ## License
 
 This project (`reverse-skill`) is primarily licensed under the **MIT License** (see [LICENSE](LICENSE)).
 
 **Submodule and third-party dependencies:**
-- **CTF-Sandbox-Orchestrator/**: **GNU GPLv3**
-- **Pentest Swarm AI**: Original project is **AGPL-3.0**. This repo only invokes it via CLI or MCP and does not include its source code
-- Other tools (jadx, frida, nmap, burpsuite-mcp, etc.) are subject to their respective official licenses
+<table align="center"><tbody><tr><td align="center"><strong>CTF-Sandbox-Orchestrator/</strong>: <strong>GNU GPLv3</strong></td></tr><tr><td align="center"><strong>Pentest Swarm AI</strong>: Original project is <strong>AGPL-3.0</strong>. This repo only invokes it via CLI or MCP and does not include its source code</td></tr><tr><td align="center">Other tools (jadx, frida, nmap, burpsuite-mcp, etc.) are subject to their respective official licenses</td></tr></tbody></table>
+
 
 <p align="right">(<a href="#license">back to top</a>)</p>
 
 <a id="acknowledgments"></a>
+
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-17"></a>
 
 ## Acknowledgments
 
@@ -314,10 +530,18 @@ Special thanks to the OLLVM deobfuscation ecosystem contributors and everyone wh
 
 <p align="right">(<a href="#acknowledgments">back to top</a>)</p>
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-18"></a>
+
 ## Contact
 
-- **Email:** [ww7517437@gmail.com](mailto:ww7517437@gmail.com)
-- **Issues:** [GitHub Issues](https://github.com/zhaoxuya520/reverse-skill/issues)
+<table align="center"><tbody><tr><td align="center"><strong>Email:</strong> <a href="mailto:ww7517437@gmail.com">ww7517437@gmail.com</a></td></tr><tr><td align="center"><strong>Issues:</strong> <a href="https://github.com/zhaoxuya520/reverse-skill/issues">GitHub Issues</a></td></tr></tbody></table>
+
+
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-19"></a>
 
 ## Disclaimer
 
@@ -325,10 +549,23 @@ This project is intended solely for lawful security research, education, CTF com
 
 **Unauthorized access, scanning, exploitation, disruption, data acquisition, or any other use against systems without prior permission is strictly prohibited.** Users are solely responsible for complying with applicable laws, regulations, and the authorized scope of testing. The maintainers accept no liability for misuse of this project or for any resulting damage or legal consequences
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-20"></a>
+
 ## Installation and download security
 
 See [Security Policy](SECURITY.md), [Installation and Download Security Guidance](docs/UV-AND-DOWNLOAD-SECURITY.md), and the [2026-09-03 repository security review](docs/SECURITY-REVIEW-2026-09-03.md).
 
+<p align="center"><a href="#readme-index">↑ Back to index</a></p>
+
+<a name="readme-section-21"></a>
+
 ## Community quick start and issue triage
 
 See [Quick Start](docs/QUICKSTART_zh.md) and [Community Issue Triage](docs/COMMUNITY-ISSUE-TRIAGE.md) for installation, client integration, and how community issues are classified. Installation/archive security details remain in [Installation and Download Security Guidance](docs/UV-AND-DOWNLOAD-SECURITY.md).
+
+<p align="center"><a href="#readme-index">↑ Back to index</a> · <a href="#readme-top">Back to top ↑</a></p>
+
+</div>
+<!-- project-centered:end -->
